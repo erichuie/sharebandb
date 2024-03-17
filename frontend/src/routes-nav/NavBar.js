@@ -32,7 +32,7 @@ function NavBar({ isLoggedIn, logout }) {
             <NavLink className="NavBar-link" to="/add">
               Add a listing
             </NavLink>
-            <NavLink className="NavBar-link" to="/listings">
+            <NavLink className="NavBar-link" name="property-listings" to="/listings">
               View listings
             </NavLink>
             <Link className="NavBar-link"  onClick={logout} to="/">

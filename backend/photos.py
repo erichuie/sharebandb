@@ -36,5 +36,3 @@ class PhotoStorage:
         url = f"https://{S3_BUCKET}.s3.amazonaws.com/{file_name}"
         print("uploaded photo, access url:", url)
         return url
-
-# PhotoStorage.upload_photo("house3.jpg")
